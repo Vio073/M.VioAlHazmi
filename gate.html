@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>My Device Specification</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/lm.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <style>
+        body {
+            background-size: cover;
+            margin: 0;
+        }
+
+        body::before {
+            content: "";
+            background: url('assets/img/gq.png') center center fixed;
+            background-size: cover;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            filter: blur(3px);
+            
+        }
+
+        .content-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .text-container {
+            max-width: 600px;
+            text-align: center;
+            margin: 0 auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .text-container p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            margin-bottom: 20px;
+        }
+
+        .text-container img {
+            width: 90%;
+            height: auto;
+            margin-bottom: 0px;
+        }
+
+        .resume-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .resume-item img {
+            width: 50%;
+            height: auto;
+            margin-right: 20px;
+        }
+
+        .resume-item p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .content-container {
+            opacity: 0;
+            transform: translateY(50px);
+            animation: fadeInUp 1s ease-out forwards;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="header" class="d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+            <h1 class="logo"><a href="index.html">Gate</a></h1>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto" href="index.html">Return</a></li>
+                    <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
+                    <li><a class="nav-link scrollto" href="sejarah.html">Next</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Content Section -->
+    <div class="content-container">
+        <div class="text-container">
+            <img src="assets/img/lgg.png" alt="Gate Image" style="margin-top: 50px;">
+            <p>Gerbang atau gate dalam komputer adalah elemen dasar dalam logika digital yang berfungsi sebagai pemrosesan sinyal elektronik. Gerbang mengonversi input sinyal listrik menjadi output sesuai dengan logika tertentu. Output dari satu gerbang dapat menjadi input bagi gerbang lain, menjadi dasar bagi perancangan sirkuit logika yang rumit.Gerbang dasar terdiri dari AND, OR, dan NOT. Gerbang AND menghasilkan output jika kedua inputnya adalah logika "1". Gerbang OR menghasilkan output jika salah satu atau kedua inputnya adalah logika "1". Gerbang NOT menghasilkan output yang adalah kebalikan dari input, yaitu "0" menjadi "1" dan sebaliknya.Pada perancangan sirkuit digital, berbagai jenis gerbang digunakan untuk membangun logika yang lebih kompleks. Ini memungkinkan komputer melakukan operasi logika seperti perbandingan, perhitungan, dan pengambilan keputusan. Gerbang-gate adalah dasar dari semua perangkat elektronik digital, termasuk komputer.</p>
+        </div>
+    </div>
+    
+    <section id="resume" class="resume">
+        <div class="container">
+            <div class="section-title">
+                <span>Jenis-jenis Gate</span>
+                <h2>Jenis-jenis Gate</h2>
+            </div>
+
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-5 order-md-1">
+                    <img src="assets/img/andd.png" alt="Gate Image" class="img-fluid mx-auto" style="max-width: 100%; height: auto;">
+                </div>
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading fw-normal lh-1" style="color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">AND Gate (Gerbang AND)</h2>
+                    <p class="lead" style="color: white; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Jenis pertama adalah gerbang AND. Gerbang AND ini memerlukan dua atau lebih input untuk menghasilkan satu output. Jika semua atau salah satu inputnya merupakan bilangan biner 0, maka outputnya akan menjadi 0. Sedangkan jika semua input adalah bilangan biner 1, maka outputnya akan menjadi 1.</p>
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-7 order-md-1">
+                    <h2 class="featurette-heading fw-normal lh-1" style="color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">OR Gate (Gerbang OR)</h2>
+                    <p class="lead" style="color: white; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Jenis kedua adalah gerbang OR. Sama seperti gerbang sebelumnya, gerbang ini juga memerlukan dua input untuk menghasilkan satu output. Gerbang OR ini akan menghasilkan output 1 jika semua atau salah satu input merupakan bilangan biner 1. Sedangkan output akan menghasilkan 0 jika semua inputnya adalah bilangan biner 0.</p>
+                </div>
+                <div class="col-md-5 order-md-2">
+                    <img src="assets/img/or.png" alt="Gate Image" class="img-fluid mx-auto" style="max-width: 100%; height: auto;">
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-5 order-md-1">
+                    <img src="assets/img/not.png" alt="Gate Image" class="img-fluid mx-auto" style="max-width: 100%; height: auto;">
+                </div>
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading fw-normal lh-1" style="color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">NOT Gate (Gerbang NOT)</h2>
+                    <p class="lead" style="color: white; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Jenis berikutnya adalah gerbang NOT. Gerbang NOT ini berfungsi sebagai pembalik keadaan. Jika input bernilai 1 maka outputnya akan bernilai 0 dan begitu juga sebaliknya.</p>
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-7 order-md-1">
+                    <h2 class="featurette-heading fw-normal lh-1" style="color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">NAND Gate (Gerbang NAND)</h2>
+                    <p class="lead" style="color: white; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Selanjutnya adalah gerbang NAND. Gerbang NAND ini adalah gabungan dari gerbang AND dan gerbang NOT. Karena itu output yang dihasilkan dari gerbang NAND ini adalah kebalikan dari gerbang AND.</p>
+                </div>
+                <div class="col-md-5 order-md-2">
+                    <img src="assets/img/nand.png" alt="Gate Image" class="img-fluid mx-auto" style="max-width: 100%; height: auto;">
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-5 order-md-1">
+                    <img src="assets/img/nor.png" alt="Gate Image" class="img-fluid mx-auto" style="max-width: 100%; height: auto;">
+                </div>
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading fw-normal lh-1" style="color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">NOR Gate (Gerbang NOR)</h2>
+                    <p class="lead" style="color: white; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Berikutnya adalah gerbang NOR. Gerbang NOR ini adalah gabungan dari gerbang OR dan gerbang NOT. Sehingga output yang dihasilkan dari gerbang NOR ini adalah kebalikan dari gerbang OR.</p>
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-7 order-md-1">
+                    <h2 class="featurette-heading fw-normal lh-1" style="color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">XOR Gate (Gerbang XOR)</h2>
+                    <p class="lead" style="color: white; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Jenis berikutnya adalah gerbang XOR. Gerbang XOR ini memerlukan dua input untuk menghasilkan satu output. Jika input berbeda (misalkan: input A=1, input B=0) maka output yang dihasilkan adalah bilangan biner 1. Sedangkan jika input adalah sama maka akan menghasilkan output dengan bilangan biner 0.</p>
+                </div>
+                <div class="col-md-5 order-md-2">
+                    <img src="assets/img/xor.png" alt="Gate Image" class="img-fluid mx-auto" style="max-width: 100%; height: auto;">
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-5 order-md-1">
+                    <img src="assets/img/xnor.png" alt="Gate Image" class="img-fluid mx-auto" style="max-width: 100%; height: auto;">
+                </div>
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading fw-normal lh-1" style="color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">XNOR Gate (Gerbang XNOR)</h2>
+                    <p class="lead" style="color: white; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Jenis yang terakhir adalah gerbang XNOR. Gerbang XNOR ini memerlukan dua input untuk menghasilkan satu output. Jika input berbeda (misalkan: input A=1, input B=0) maka output yang dihasilkan adalah bilangan biner 0. Sedangkan jika input adalah sama maka akan menghasilkan output dengan bilangan biner 1.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

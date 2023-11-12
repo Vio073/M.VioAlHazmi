@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>My Device Specification</title>
+
+    <!-- Favicons -->
+    <link href="assets/img/lm.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-size: cover;
+            margin: 0;
+        }
+
+        body::before {
+            content: "";
+            background: url('assets/img/gq.png') center center fixed;
+            background-size: cover;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            filter: blur(3px);
+        }
+
+        .content-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .text-container {
+            max-width: 1000px;
+            text-align: justify;
+            margin: 0 auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 2px;
+            text-align: center;
+            margin-top: 200px;
+        }
+
+        .text-container p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            margin-bottom: 20px;
+        }
+
+        .text-container img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .resume-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .resume-item img {
+            max-width: 10%;
+            height: auto;
+            margin-right: 20px;
+        }
+
+        .resume-item p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        .content-container {
+            opacity: 0;
+            transform: translateY(50px);
+            animation: fadeInUp 1s ease-out forwards;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        #header {
+            background: #000; /* Ganti dengan warna hitam */
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            transition: background 0.5s ease-in-out;
+          }
+        
+          #header.scroll {
+            background: #111; /* Ganti dengan warna hitam saat di-scroll, atau warna lain yang diinginkan */
+          }
+        
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="header" class="d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+            <h1 class="logo"><a href="index.html">CPU</a></h1>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto" href="index.html">Return</a></li>
+                    <li><a class="nav-link scrollto" href="sejarah.html">Previous</a></li>
+                    <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
+                    <li><a class="nav-link scrollto" href="memory.html">Next</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Content Section -->
+    <div class="content-container">
+        <div class="text-container">
+            <img src="assets/img/cpu.png" alt="Gate Image" style="margin-top: 50px; max-width: 60%;">
+            <p>
+                Central Processing Unit (CPU) merupakan inti dari sebuah sistem komputer, bertindak sebagai otak yang mengeksekusi instruksi yang diberikan oleh perangkat lunak. Fungsi utama CPU melibatkan eksekusi instruksi, termasuk operasi aritmatika, logika, dan pengambilan data dari memori. Arsitektur CPU terdiri dari Arithmetic Logic Unit (ALU) untuk operasi aritmatika dan logika, serta Control Unit (CU) yang mengelola aliran data dan instruksi. Kecepatan eksekusi diukur dalam Hertz, dengan clock speed yang menunjukkan seberapa cepat CPU dapat mengeksekusi instruksi dalam satu detik. CPU modern sering memiliki beberapa core, yang masing-masing dapat mengeksekusi tugas secara independen, dan beberapa CPU mendukung teknologi multithreading untuk eksekusi beberapa thread secara bersamaan. Cache, sebagai memori cepat, membantu mempercepat akses data. Pipeline memungkinkan eksekusi instruksi dalam serangkaian tahapan, meningkatkan throughput. Faktor-faktor seperti jumlah core, clock speed, dan kemampuan multithreading memengaruhi tingkat kinerja CPU. Perkembangan terkini mencakup peningkatan kecepatan, efisiensi daya, dan fitur-fitur keamanan serta dukungan AI. Pemilihan CPU didasarkan pada kebutuhan pengguna, seperti tugas berat seperti pengeditan video atau gaming, yang memerlukan CPU dengan clock speed tinggi dan banyak core. Dengan demikian, CPU merupakan komponen kunci dalam sistem komputer, dan pemahaman mendalam terhadap karakteristiknya memainkan peran penting dalam pemilihan dan pengoptimalkan kinerja sistem.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

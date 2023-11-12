@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>My Device Specification</title>
+
+  <!-- Favicons -->
+  <link href="assets/img/lm.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-size: cover;
+      margin: 0;
+    }
+
+    body::before {
+      content: "";
+      background: url('assets/img/gq.png') center center fixed;
+      background-size: cover;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      filter: blur(3px);
+    }
+
+    .content-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .text-container {
+      max-width: 1000px;
+      text-align: justify;
+      margin: 0 auto;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 2px;
+      text-align: center;
+      margin-top: 2000px;
+    }
+
+    .text-container p {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      color: #ffffff;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+      margin-bottom: 20px;
+    }
+
+    .text-container img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .resume-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .resume-item img {
+      max-width: 10%;
+      height: auto;
+      margin-right: 20px;
+    }
+
+    .resume-item p {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      color: #ffffff;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    .content-container {
+      opacity: 0;
+      transform: translateY(50px);
+      animation: fadeInUp 1s ease-out forwards;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    #header {
+      background: #000;
+      /* Ganti dengan warna hitam */
+      padding: 20px;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+      transition: background 0.5s ease-in-out;
+    }
+
+    #header.scroll {
+      background: #111;
+      /* Ganti dengan warna hitam saat di-scroll, atau warna lain yang diinginkan */
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+      <h1 class="logo"><a href="index.html">Respresentasi Data</a></h1>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="index.html">Return</a></li>
+          <li><a class="nav-link scrollto" href="memory.html">Previous</a></li>
+          <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
+          <li><a class="nav-link scrollto" href="bahasa_pemprograman.html">Next</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Content Section -->
+  <div class="content-container">
+    <div class="text-container">
+      <img src="assets/img/r.png" alt="Gate Image" style="margin-top: 50px; max-width: 60%;">
+      <p>
+        Data adalah kumpulan fakta, angka, atau informasi yang dapat diukur, dihitung, atau diolah. Data dapat berupa nilai numerik, teks, gambar, suara, atau bentuk lain dari representasi informasi. Data menjadi sangat berharga ketika diorganisir dan diinterpretasikan untuk menghasilkan informasi yang bermakna. Dalam konteks komputasi dan teknologi informasi, data umumnya dianggap sebagai entitas mentah atau mentah yang memerlukan pemrosesan lebih lanjut untuk mendapatkan nilai atau makna yang lebih besar. Proses transformasi data ini dapat melibatkan manipulasi, analisis, dan penyajian informasi untuk mendukung pengambilan keputusan atau pemahaman lebih lanjut tentang suatu fenomena atau kejadian.
+      </p>
+  
+      <section id="resume" class="resume">
+        <div class="container">
+          <div class="section-title">
+            <span>Data Numerik</span>
+            <h2>Data Numerik</h2>
+          </div>
+          <div class="container">
+            <hr class="featurette-divider">
+            <div class="row featurette">
+              <div class="col-md-7 order-md-2 mx-auto text-center">
+                <h2 class="featurette-heading fw-normal lh-1" style="color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Sistem Desimal</h2>
+                <p class="lead" style="color: white; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Sistem bilangan desimal adalah sistem standar yang melambangkan bilangan bulat dan bukan bilangan bulat. Bilangan desimal (juga seringkali disebut desimal, atau istilah yang kurang tepat, bilangan desimal) mengacu pada notasi suatu bilangan dalam sistem bilangan desimal.</p>
+              </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row featurette">
+              <div class="col-md-7 order-md-1 mx-auto text-center">
+                <h2 class="featurette-heading fw-normal lh-1" style="color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Sistem Biner</h2>
+                <p class="lead" style="color: white; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Bilangan biner adalah bilangan yang dinyatakan dalam sistem bilangan basis 2 atau sistem bilangan biner, suatu metode ekspresi matematika yang hanya menggunakan dua simbol: biasanya "0" (nol) dan "1" (satu).</p>
+              </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row featurette">
+              <div class="col-md-7 order-md-1 mx-auto text-center">
+                <h2 class="featurette-heading fw-normal lh-1" style="color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Integer</h2>
+                <p class="lead" style="color: white; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Integer atau bilangan bulat adalah bilangan yang dapat dituliskan tanpa komponen desimal atau pecahan. Sebagai contoh, 21, 4, 0, -3, -67 dan -2048 merupakan bilangan bulat, sedangkan 9,75 , 51⁄2 , dan √ 5 . Pada bahasa pemprograman, integer dinotasikan sebagai int.</p>
+              </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row featurette">
+              <div class="col-md-7 order-md-1 mx-auto text-center">
+                <h2 class="featurette-heading fw-normal lh-1" style="color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Bilangan Real</h2>
+                <p class="lead" style="color: white; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Bilangan real adalah bilangan yang terdapat pecahan atau desimal di dalam nya. Bilangan real meliputi bilangan rasional, seperti bilangan bulat 42 dan pecahan −23/129, dan bilangan irasional, seperti π dan √ 2 . Bilangan real juga dapat dilambangkan sebagai salah satu titik dalam garis bilangan. Contoh bilangan real adalah 3.14, 2.5, dan lain sebagai nya. Pada bahasa pemprograman, bilangan real dinotasikan sebagai float dan double.</p>
+              </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row featurette">
+              <div class="col-md-7 order-md-1 mx-auto text-center">
+                <h2 class="featurette-heading fw-normal lh-1" style="color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Bilangan Cacah</h2>
+                <p class="lead" style="color: white; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Singkat nya, bilangan cacah adalah bilangan bulat tanpa negatif. Secara keseluruhan, bilangan cacah merupakan bilangan bulat, hanya saja angka di bawah 0 seperti -1, -2, ... tidak di perkenankan dalam bilangan cacah.</p>
+              </div>
+            </div>
+            <section id="resume" class="resume">
+              <div class="container">
+                <div class="section-title">
+                  <span>Data Non-Numerik</span>
+                  <h2>Data Non-Numerik</h2>
+                </div>
+                <hr class="featurette-divider">
+                <div class="row featurette">
+                  <div class="col-md-7 order-md-1 mx-auto text-center">
+                    <h2 class="featurette-heading fw-normal lh-1" style="color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Teks</h2>
+                    <p class="lead" style="color: white; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Data teks adalah tipe data berupa teks yang terdiri dari huruf, symbol, dan angka1. Data teks termasuk ke dalam bagian dari kelompok data yang tidak terstruktur. Data teks merupakan salah satu jenis data yang paling banyak ditemukan di era digitalisasi, mulai dari facebook, twitter, instagram, web, blog, hingga review produk oleh pelanggan. Data teks sulit untuk diolah menggunakan cara yang sama dengan pengolahan data terstruktur, dan salah satu metode yang bisa digunakan adalah metode Natural Language Processing.</p>
+                  </div>
+                </div>
+                <hr class="featurette-divider">
+                <div class="row featurette">
+                  <div class="col-md-7 order-md-1 mx-auto text-center">
+                    <h2 class="featurette-heading fw-normal lh-1" style="color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Image</h2>
+                    <p class="lead" style="color: white; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Berbeda dengan teks, gambar merupakan representasi citra digital yang bisa di simpan oleh komputer. Gambar adalah data non-numerik yang banyak di gunakan juga. Di dalam gambar itu sendiri terdiri dari banyak nya piksel yang dimana akan di kelola juga oleh sistem komputer namun berbeda metode pengelolaan nya dengan teks.</p>
+                  </div>
+                </div>
+
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  
+</body>
+
+</html>

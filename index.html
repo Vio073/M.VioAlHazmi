@@ -28,14 +28,16 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <script>
+    function slideCard(buttonId) {
+      // Ubah warna tombol menjadi merah gelap saat diklik
+      var button = document.getElementById(buttonId);
+      button.style.backgroundColor = "#8B0000"; // Kode warna merah gelap
+      button.style.color = "white";
+    }
+  </script>
 
-  <!-- =======================================================
-  * Template Name: Day
-  * Updated: Sep 18 2023 with Bootstrap v5.3.2
-  * Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+
 </head>
 
 <body>
@@ -52,7 +54,9 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
           <li><a class="nav-link scrollto" href="#about">Tentang</a></li>
-          <li><a class="nav-link scrollto" href="#services">Spesifikasi</a></li>
+          <li><a class="nav-link scrollto" href="#spesifikasi">Spesifikasi</a></li>
+          <li><a class="nav-link scrollto" href="#resume">Resume</a></li>
+
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -108,7 +112,7 @@
     <!-- End Clients Section -->
 
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+    <section id="spesifikasi" class="services">
       <div class="container">
 
         <div class="section-title">
@@ -197,14 +201,102 @@
           </div>
         </div>
 
-        </div>
+      </div>
 
       </div>
     </section><!-- End Services Section -->
 
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <span>Resume Arsikom</span>
+          <h2>Resume Arsikom</h2>
+          <p>Berikut merupakan spesifikasi dari laptop Acer Swift SF314-56G</p>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <a href="gate.html" class="card">
+                <img src="assets/img/lgg.png" class="card-img-top" alt="Card 1">
+                <div class="card-body">
+                  <h5 class="card-title">Gate</h5>
+                  <button id="readmore-button-1" class="btn btn-secondary"
+                    onclick="slideCard('readmore-button-1')">Readmore</button>
+                </div>
+              </a>
+            </div>
+
+            <!-- Tambahkan ID dan fungsi onclick untuk setiap tombol pada card lainnya -->
+            <div class="col-md-4 mb-4">
+              <a href="sejarah.html" class="card">
+                <img src="assets/img/sjj.png" class="card-img-top" alt="Card 2">
+                <div class="card-body">
+                  <h5 class="card-title">Sejarah komputer</h5>
+                  <button id="readmore-button-2" class="btn btn-secondary"
+                    onclick="slideCard('readmore-button-2')">Readmore</button>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-4 mb-4">
+              <a href="cpu.html" class="card">
+                <img src="assets/img/cpu.png" class="card-img-top" alt="Card 4">
+                <div class="card-body">
+                  <h5 class="card-title">CPU</h5>
+                  <button id="readmore-button-3" class="btn btn-secondary"
+                    onclick="slideCard('readmore-button-3')">Readmore</button>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-4 mb-4">
+              <a href="memory.html" class="card">
+                <img src="assets/img/m.png" class="card-img-top" alt="Card 5">
+                <div class="card-body">
+                  <h5 class="card-title">Memory</h5>
+                  <button id="readmore-button-4" class="btn btn-secondary"
+                    onclick="slideCard('readmore-button-4')">Readmore</button>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-4 mb-4">
+              <a href="respresentasi_data.html" class="card">
+                <img src="assets/img/r.png" class="card-img-top" alt="Card 6">
+                <div class="card-body">
+                  <h5 class="card-title">Representasi data</h5>
+                  <button id="readmore-button-5" class="btn btn-secondary"
+                    onclick="slideCard('readmore-button-5')">Readmore</button>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-4 mb-4">
+              <a href="bahasa_pemprograman.html" class="card">
+                <img src="assets/img/b.png" class="card-img-top" alt="Card 7">
+                <div class="card-body">
+                  <h5 class="card-title">Bahasa Pemrograman</h5>
+                  <button id="readmore-button-6" class="btn btn-secondary"
+                    onclick="slideCard('readmore-button-6')">Readmore</button>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+
+
     <!-- ======= Cta Section ======= -->
     <section id="cta" class="cta">
-      <div class="container" data-aos="zoom-in">
+      <div class="container">
 
         <div class="text-center">
           <h3>Terima Kasih</h3>

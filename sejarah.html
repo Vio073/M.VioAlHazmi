@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>My Device Specification</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/lm.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <style>
+        body {
+            background-size: cover;
+            margin: 0;
+        }
+
+        body::before {
+            content: "";
+            background: url('assets/img/gq.png') center center fixed;
+            background-size: cover;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            filter: blur(3px);
+        }
+
+        .content-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .text-container {
+            max-width: 1000px;
+            text-align: center;
+            margin: 0 auto 50px; /* Sesuaikan nilai sesuai kebutuhan Anda */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-top: 80px;
+        }
+
+        .text-container p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            margin-bottom: 20px;
+        }
+
+        .text-container img {
+            width: 50%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .resume-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .resume-item img {
+            width: 70%;
+            height: auto;
+            margin-right: 20px;
+        }
+
+        .resume-item p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        .content-container {
+            opacity: 0;
+            transform: translateY(50px);
+            animation: fadeInUp 1s ease-out forwards;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        #header {
+            background: #000; /* Ganti dengan warna hitam */
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            transition: background 1s ease-in-out;
+        }
+
+        #header.scroll {
+            background: #111; /* Ganti dengan warna hitam saat di-scroll, atau warna lain yang diinginkan */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="header" class="d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+            <h1 class="logo"><a href="index.html">Sejarah Komputer</a></h1>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto" href="index.html">Return</a></li>
+                    <li><a class="nav-link scrollto" href="gate.html">Previous</a></li>
+                    <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
+                    <li><a class="nav-link scrollto" href="cpu.html">Next</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Content Section -->
+    <div class="content-container">
+        <div class="text-container">
+            <img src="assets/img/sjj.png" alt="Gate Image" style="margin-top: 80px;">
+            <p>Sejarah komputer dimulai pada abad ke-19 dengan perkembangan konsep mesin hitung mekanis. Charles Babbage, seorang matematikawan dan ilmuwan Inggris, diakui sebagai "bapak komputer" karena ia merancang mesin analitik pada tahun 1837. Sayangnya, mesin tersebut tidak pernah dibangun selama hidupnya. Pada awal abad ke-20, penemuan tabung hampa udara oleh Lee De Forest memungkinkan pengembangan komputer elektronik pertama. Pada tahun 1936, Alan Turing mengembangkan konsep mesin Turing, yang menjadi dasar bagi komputer modern. </p>
+        </div>
+    </div>
+    
+    <section id="resume" class="resume">
+        <div class="container">
+            <div class="section-title">
+                <span>Generasi Komputer</span>
+                <h2>Generasi Komputer</h2>
+            </div>
+
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-5 order-md-1">
+                    <img src="assets/img/g1.png" alt="Gate Image" class="img-fluid mx-auto" style="max-width: 100%; height: auto;">
+                </div>
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading fw-normal lh-1" style="color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Generasi Pertama (1940-1956)</h2>
+                    <p class="lead" style="color: white; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Generasi pertama dimulai ketika komputer digunakan dalam akademi dan militer, seperti Komputer Atanasoff-Berry dibuat pada tahun 1937 untuk menyelesaikan sistem persamaan linear dan komputer Colossus untuk memecahkan kode rahasia Jerman Nazi. Kemudian, ENIAC yang dibangun pada tahun 1946 menjadi komputer pertama untuk tujuan umum. Ketika komputernya dinyalakan untuk pertama kali, Philadelphia mengalami mati listrik. Komputer generasi ini menggunakan tabung vakum untuk menyimpan data dan ukurannya memakan satu ruangan.</p>
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-7 order-md-1">
+                    <h2 class="featurette-heading fw-normal lh-1" style="color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Generasi Kedua (1956-1963)</h2>
+                    <p class="lead" style="color: white; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Generasi kedua dimulai ketika transistor menggatikan tabung vakum. UNIVAC diperkenalkan ke publik tahun 1951 untuk penggunaan komersial. Kemudian, pada tahun 1953, IBM memulai bisnis komputernya dengan merilis IBM 650 dan IBM 700. Berbagai bahasa pemrograman mulai dikembangkan dan komputer mulai memiliki memori dan sistem operasi.</p>
+                </div>
+                <div class="col-md-5 order-md-2">
+                    <img src="assets/img/g2.png" alt="Gate Image" class="img-fluid mx-auto" style="max-width: 100%; height: auto;">
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-5 order-md-1">
+                    <img src="assets/img/g3.png" alt="Gate Image" class="img-fluid mx-auto" style="max-width: 100%; height: auto;">
+                </div>
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading fw-normal lh-1" style="color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Generasi Ketiga (1964-1971)</h2>
+                    <p class="lead" style="color: white; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Generasi ketiga dimulai ketika teknologi transistor meningkat menjadi sirkuit terpadu. Komputer mini adalah inovasi yang signifikan dalam generasi ini dan mempengaruhi generasi komputer selanjutnya. NASA menggunakan komputer generasi ini untuk melancarkan Program Apollo, seperti Komputer Bimbingan Apollo untuk mempermudah kendali Apollo Command/Service Module. Digital Equipment Corporation menjadi perusahaan komputer nomor dua di belakang IBM dengan komputer PDP dan VAX-nya. Komputer ini membawa ke pengembangan sistem operasi yang berpengaruh, <Unix class=""></Unix></p>
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-7 order-md-1">
+                    <h2 class="featurette-heading fw-normal lh-1" style="color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Generasi Keempat (1971-1980)</h2>
+                    <p class="lead" style="color: white; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Generasi keempat dimulai pada dasawarsa 1970-an ketika penemuan MOSFET dan integrasi berskala besar selanjutnya membawa ke pengembangan mikroprosesor di awal 1970-an. komputer pribadi yang semakin kecil berkat mikroprosesor mulai berkembang, dimulai dari komputer rumahan dan komputer meja. Teknologi selanjutnya adalah laptop dan ponsel cerdas yang sangat fenomenal, membawa berbagai perusahaan teknologi ke dalam perang paten atas ponsel cerdas.</p>
+                </div>
+                <div class="col-md-5 order-md-2">
+                    <img src="assets/img/g4.png" alt="Gate Image" class="img-fluid mx-auto" style="max-width: 100%; height: auto;">
+                </div>
+            </div>
+            <hr class="featurette-divider">
+        <div class="content-container">
+          <div class="text-container">
+        <img src="assets/img/g5.png" alt="Gate Image" style="margin-top: 0px; width: 450px; height: auto;">
+        <h2 class="featurette-heading fw-normal lh-1" style="color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Generasi Kelima (1980-sekarang)</h2>
+            <p>Generasi ini terbukti menjadi tonggak pencapaian besar dalam perkembangan komputer. Generasi ini membawa serta kemajuan teknis seperti perangkat lunak Kecerdasan Buatan (AI), pemrosesan paralel, dan teknologi ULSI (Ultra Large Scale Integration). Inilah yang kemudian dikenal sebagai komputer modern yang terus kita gunakan hingga saat ini.</p>
+      </div>
+  </div>
+    
+
+           
+        </div>
+    </section>
+</body>
+</html>

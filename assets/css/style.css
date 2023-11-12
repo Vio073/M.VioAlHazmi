@@ -736,6 +736,42 @@ section {
   color: #fff;
 }
 
+/* Tambahkan style untuk grid container */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Tambahkan style untuk setiap card */
+.card {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Tambahkan style untuk gambar dalam card */
+.card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Tambahkan style untuk judul card */
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+/* Tambahkan style untuk deskripsi card */
+.card-text {
+  font-size: 14px;
+  color: #555;
+}
+
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/

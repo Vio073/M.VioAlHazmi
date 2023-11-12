@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>My Device Specification</title>
+
+    <!-- Favicons -->
+    <link href="assets/img/lm.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-size: cover;
+            margin: 0;
+        }
+
+        body::before {
+            content: "";
+            background: url('assets/img/gq.png') center center fixed;
+            background-size: cover;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            filter: blur(3px);
+        }
+
+        .content-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .text-container {
+            max-width: 1000px;
+            text-align: justify;
+            margin: 0 auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 2px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .text-container p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            margin-bottom: 20px;
+        }
+
+        .text-container img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .resume-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .resume-item img {
+            max-width: 10%;
+            height: auto;
+            margin-right: 20px;
+        }
+
+        .resume-item p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        .content-container {
+            opacity: 0;
+            transform: translateY(50px);
+            animation: fadeInUp 1s ease-out forwards;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        #header {
+            background: #000; /* Ganti dengan warna hitam */
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            transition: background 0.5s ease-in-out;
+          }
+        
+          #header.scroll {
+            background: #111; /* Ganti dengan warna hitam saat di-scroll, atau warna lain yang diinginkan */
+          }
+        
+    </style>
+</head>
+<body>
+    
+    <!-- Header Section -->
+    <header id="header" class="d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+            <h1 class="logo"><a href="index.html">Memory</a></h1>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto" href="index.html">Return</a></li>
+                    <li><a class="nav-link scrollto" href="cpu.html">Previous</a></li>
+                    <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
+                    <li><a class="nav-link scrollto" href="respresentasi_data.html">Next</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Content Section -->
+    <div class="content-container">
+        <div class="text-container">
+            <img src="assets/img/m.png" alt="Gate Image" style="margin-top: 50px; max-width: 60%;">
+            <p>
+                memori komputer adalah perangkat keras (hardware) yang digunakan untuk menyimpan data berupa informasi atau instruksi yang bersifat sementara maupun permanen. Memori merupakan kumpulan dari storage units yang menyimpan data binary dalam bentuk bit. Setiap blok memori terdiri dari sejumlah kecil komponen, bagian-bagian kecil ini disebut sel.Berada di dalam central processor unit (CPU), memori menjadi komponen penting untuk mengoperasikan perangkat komputer. Setiap data dan program yang diproses oleh processor semuanya akan disimpan pada memori. Data yang bersifat sementara akan hilang secara otomatis jika perangkat dimatikan. Sedangkan data yang bersifat permanen akan tetap ada sekalipun aliran listrik dimatikan.
+            </p>
+        </div>
+    </div>
+    <br>
+    <section id="resume" class="resume">
+        <div class="container">
+            <div class="section-title">
+                <span>Jenis Memory</span>
+                <h2>Jenis Memory</h2>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-5 order-md-1">
+                    <img src="assets/img/r1.png" alt="Gate Image" class="img-fluid mx-auto" style="max-width: 100%; height: auto;">
+                </div>
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading fw-normal lh-1" style="color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Ram</h2>
+                    <p class="lead" style="color: white; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">RAM merupakan salah satu memori primer atau memori utama yang dapat diakses langsung oleh CPU secara cepat. RAM sendiri tergolong sebagai memori volatile sehingga data yang ada di dalamnya bisa hilang jika aliran listrik dimatikan. Oleh sebab itu, perangkat ini sering disebut sebagai media penyimpanan data sementara.</p>
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-7 order-md-1">
+                    <h2 class="featurette-heading fw-normal lh-1" style="color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Rom</h2>
+                    <p class="lead" style="color: white; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Sama halnya RAM, perangkat ini dapat diakses secara langsung oleh CPU dan termasuk memori utama. Namun, ROM memiliki sifat non-volatile sehingga data akan tetap tersimpan meski tidak ada daya sekalipun. Sebagai memori read-only, data ROM hanya dapat dibaca alias tidak bisa dimodifikasi.</p>
+                </div>
+                <div class="col-md-5 order-md-2">
+                    <img src="assets/img/r2.png" alt="Gate Image" class="img-fluid mx-auto" style="max-width: 100%; height: auto;">
+                </div>
+            </div> <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-5 order-md-1">
+                    <img src="assets/img/r3.png" alt="Gate Image" class="img-fluid mx-auto" style="max-width: 100%; height: auto;">
+                </div>
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading fw-normal lh-1" style="color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Static Memory</h2>
+                    <p class="lead" style="color: white; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Static memory, atau SRAM (Static Random Access Memory), adalah jenis memori yang mempertahankan data tanpa perlu penyegaran terus-menerus. Ini biasanya digunakan dalam cache memori dan register. Static memory cenderung lebih cepat daripada dynamic memory, tetapi juga lebih mahal.</p>
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-7 order-md-1">
+                    <h2 class="featurette-heading fw-normal lh-1" style="color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Dynamic Memory</h2>
+                    <p class="lead" style="color: white; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Dynamic memory, atau DRAM (Dynamic Random Access Memory), adalah jenis RAM yang memerlukan penyegaran periodik untuk mempertahankan data. Ini adalah jenis RAM yang paling umum digunakan dalam komputer karena biayanya yang lebih rendah, meskipun kurang cepat daripada static memory.</p>
+                </div>
+                <div class="col-md-5 order-md-2">
+                    <img src="assets/img/r4.png" alt="Gate Image" class="img-fluid mx-auto" style="max-width: 100%; height: auto;">
+                </div>
+            </div> <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-5 order-md-1">
+                    <img src="assets/img/r5.png" alt="Gate Image" class="img-fluid mx-auto" style="max-width: 100%; height: auto;">
+                </div>
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading fw-normal lh-1" style="color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Volatile</h2>
+                    <p class="lead" style="color: white; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Memori volatile dalam konteks komputer mengacu pada jenis memori yang dapat kehilangan isinya ketika daya listrik terputus. Dua bentuk memori utama yang memperlihatkan sifat ini adalah RAM (Random Access Memory) dan cache memory. Ketika komputer dinyalakan, data disimpan dalam RAM untuk memberikan akses cepat kepada CPU selama eksekusi program. Namun, saat daya dimatikan, data dalam RAM hilang, sehingga RAM dianggap sebagai memori volatile.</p>
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-7 order-md-1">
+                    <h2 class="featurette-heading fw-normal lh-1" style="color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Non Volatile</h2>
+                    <p class="lead" style="color: white; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Memori non-volatil merujuk pada jenis memori yang dapat menyimpan informasi atau data tanpa memerlukan daya listrik yang terus menerus. Ini berbeda dengan memori volatil, seperti RAM, yang kehilangan data ketika daya listrik diputus.Contoh umum dari memori non-volatil adalah hard drive (HDD), solid-state drive (SSD), dan flash drive. Ketiganya adalah perangkat penyimpanan yang dapat menyimpan data dalam jangka panjang tanpa memerlukan daya listrik saat tidak digunakan. Ini membuat mereka cocok untuk menyimpan data yang perlu dipertahankan bahkan ketika daya listrik dimatikan.</p>
+                </div>
+                <div class="col-md-5 order-md-2">
+                    <img src="assets/img/r6.png" alt="Gate Image" class="img-fluid mx-auto" style="max-width: 100%; height: auto;">
+                </div>
+            </div>
+            <br>
+            <section id="resume" class="resume">
+                <div class="container">
+                    <div class="section-title">
+                        <span>Perkembangan Memory</span>
+                        <h2>Perkembangan Memory</h2>
+                    </div>
+                    <br>
+                <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-12 order-md-1 text-center">
+                    <img src="assets/img/pm.png" alt="Gate Image" class="img-fluid mx-auto" style="max-width: 50%; height: auto;">
+                </div>
+            </div>
+            <br>
+
+          
+    <script>
+        window.addEventListener("scroll", function () {
+          var header = document.getElementById("header");
+          header.classList.toggle("scroll", window.scrollY > 0);
+        });
+      </script>
+      
+</body>
+</html>
